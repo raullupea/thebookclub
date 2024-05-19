@@ -172,7 +172,7 @@ body{
    .remember-forgot label input {
      margin-right:4px;
    }
-   
+
 /* utilities */
 .container{
     max-width:1500px;
@@ -230,5 +230,24 @@ body{
   .btn:hover{
     border:1px solid #fff;
     transform:scale(0.96);
+  }
+
+  /* Stats ---------*/
+.stats{
+    margin-top:1rem;
+    padding-top:100px;
+  
+   
+  }
+  .stats-heading{
+    max-width:650px;
+    margin:auto;
+  }
+  
+  .grid-3{
+    background-color:#fff;
+    grid-template-columns: repeat(3,1fr);
+    gap:30px;
+    
   }
      
