@@ -328,4 +328,36 @@ body{
   .images{
     display:flex;
   }
+
+  /* footer */
+.footer{
+    margin-top:auto;
+    
+    
+  }
   
+  .footer .social a {
+    margin: 0 10px;
+    padding:1.5rem;
+    font-size:1.2rem;
+    color:#fff;
+  }
+  .footer .container.grid {
+    background-color:transparent;
+    color:#fff;
+   
+  }
+  .footer nav ul a {
+    color:#fff;
+    font-size:1.2rem;
+    letter-spacing: 1px;
+    
+  
+  }
+  .footer h1{
+    font-size: 1.4rem;
+  }
+    .social a i:hover{
+      transform:scale(0.92);
+    }
+    
