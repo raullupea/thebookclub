@@ -1,0 +1,81 @@
+/* font styles */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+:root{
+    --primary-color:#047aed;
+}
+* {
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+}
+
+body{
+    font-family: 'Lato',sans-serif;
+    color:#333;
+    line-height:1.6;
+    display:flex;
+    flex-direction:column;
+    min-height: 100vh;
+  }
+
+  /* Logo */ 
+.image{
+    width:85px;
+  }
+  .logo{
+    letter-spacing: 1.4px;
+    text-shadow: 4px 4px 4px #333;
+    cursor:pointer;
+  
+  }
+  .first{
+    margin-left:1rem;
+  
+  }
+  .book{
+    font-size:3rem;
+    font-weight: 700;
+  }
+  
+  /* Navbar */
+  .active{
+    background-color:#333;
+    border-radius:18px;
+  }
+  ul{
+    list-style-type: none;
+  }
+  a{
+    text-decoration: none;
+    color:#333;
+  }
+  h1{
+    margin: 10px 0;
+    padding:12px;
+  }
+  .navbar{
+    background-color:var(--primary-color);
+    color:#fff;
+    height:130px;
+  }
+  .navbar ul{
+    display:flex;
+  }
+  .navbar a {
+    color:#fff;
+    padding:10px;
+    margin:0 5px;
+    font-size:1.2rem;
+    text-transform:uppercase;
+    letter-spacing: 1.4px;
+    text-shadow:4px 4px 4px #333;
+  }
+  .navbar  li a:hover{
+    background-color: #333;
+    border-radius:18px;
+   
+  }
+  .navbar .flex{
+    justify-content: space-between;
+  }
