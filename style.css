@@ -251,3 +251,81 @@ body{
     
   }
      
+  /*Books section */
+
+.bookSection {
+    background-color: var(--primary-color);
+    height:400px;
+    
+  }
+  
+  .hText{
+    color:#fff;
+  }
+  .pText{
+    font-size: 20px;
+    color:#fff;
+  }
+  .container-grid {
+    display: grid;
+    grid-template-columns: 3fr  1fr;
+    position:relative;
+  }
+  
+  .textCenter{
+    width:50vw;
+    display:inline-block;
+    color:#fff;
+    margin:0 auto;
+  }
+  .large{
+    margin-top:1.6rem;
+  }
+  .img1{
+    padding:1rem;
+    margin:1rem;
+    
+  }
+  .img1:hover{
+    transform:scale(1.3);
+  }
+  .img2{
+    padding:1rem;
+    margin:1rem;
+  }
+  .img2:hover{
+    transform:scale(1.3);
+  }
+  .img3{
+    padding:1rem;
+    margin:1rem;
+  }
+  .img3:hover{
+    transform:scale(1.3);
+  }
+  .img4{
+    padding:1rem;
+    margin:1rem;
+  }
+  .img4:hover{
+    transform:scale(1.3);
+  }
+  .img5{
+    padding:1rem;
+    margin:1rem;
+  }
+  .img5:hover{
+    transform:scale(1.3);
+  }
+  .img6{
+    padding:1rem;
+    margin:1rem;
+  }
+  .img6:hover{
+    transform:scale(1.3);
+  }
+  
+  .images{
+    display:flex;
+  }
+  
