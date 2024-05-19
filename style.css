@@ -79,3 +79,156 @@ body{
   .navbar .flex{
     justify-content: space-between;
   }
+
+  /* Hero */
+.hero{
+    font-size:1.1rem;
+   
+   }
+   .showcase{
+     background-color:var(--primary-color);
+     margin-top:-10px;
+     height:400px;
+     color:#fff;
+     position:relative;
+   }
+   .grid{
+     background:var(--primary-color);
+     display:grid;
+     grid-template-columns: 1fr 1fr;
+     gap:20px;
+     justify-content: center;
+     align-items: center;
+     height:50%;
+   
+   }
+   .showcase h1{
+     font-size: 40px;
+   }
+   .showcase p{
+     margin:20px 0;
+     
+   }
+   .showcase .grid{
+     grid-template-columns: 55% 45%;
+     gap:30px;
+   }
+   
+   .showcase-form{
+     position:relative;
+     top:60px;
+     height:400px;
+     width:400px;
+     padding:40px;
+     z-index:100;
+     
+   }
+   
+   .showcase-form .form-control{
+     margin: 30px 0;
+     border:0;
+     }
+   .showcase-form input[type='text'],
+   .showcase-form input[type='email'],
+   .showcase-form input[type='password']
+   {
+     border:0;
+     border-bottom:1px solid #b4becb;
+     width:100%;
+     padding:3px;
+     
+   }
+   .showcase-form input:focus {
+     outline:none;
+   }
+   .showcase::before,
+   .showcase::after{
+     content:'';
+     position:absolute;
+     height:100px;
+     bottom:-70px;
+     right:0;
+     left:0;
+     background-color:#fff;
+     transform:skewY(-3deg);
+     -webkit-transform:skewY(-3deg);
+     -moz-transform:skewY(-3deg);
+     -ms-transform:skewY(-3deg);
+   }
+   .form-control{
+     display:flex;
+     align-items: center;
+     justify-content: center;
+     gap:1rem;
+   
+   }
+   .remember-forgot{
+     margin:1rem;
+     display:flex;
+     justify-content: space-between;
+     font-size:0.9rem;
+   
+   }
+   .remember-forgot label input {
+     margin-right:4px;
+   }
+   
+/* utilities */
+.container{
+    max-width:1500px;
+    margin: 0 auto;
+   padding:0 40px;
+   
+  }
+  .flex{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    height:100%;
+    
+  }
+  /*  Form */
+  .card{
+    background-color:#fff;
+    color:#333;
+    border-radius:10px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+    padding:20px;
+    margin:10px;
+    height:460px;
+  }
+  /*Forgot password */
+  .forgot{
+    text-decoration: underline;
+  }
+  .forgot:hover{
+    color:red;
+  }
+  /* Register */
+  .register-form{
+    margin-left:5rem;
+    padding-top:1.2rem;
+    text-decoration: underline #333;
+    font-size: 1.1rem;
+    font-weight:600;
+    letter-spacing: 1px;
+  
+    }
+    .register-form a {
+      color:#333;
+  
+    }
+    .register-form a:hover{
+      color:green;
+    }
+   
+  .btn-outline {
+    background-color:transparent;
+    border: 1px solid #fff;
+    color:#fff;
+  }
+  .btn:hover{
+    border:1px solid #fff;
+    transform:scale(0.96);
+  }
+     
